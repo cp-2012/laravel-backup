@@ -7,7 +7,7 @@
         "database",
         "laravel-backup"
     ],
-    "homepage": "https://github.com/spatie/laravel-backup",
+    "homepage": "https://github.com/cp-2012/laravel-backup",
     "license": "MIT",
     "authors": [
         {
