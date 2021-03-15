@@ -239,7 +239,8 @@ class BackupJob
                     $fileName .= '.' . $dbDumper->getCompressorExtension();
                 }
 
-                $temporaryFilePath = $this->temporaryDirectory->path('db-dumps' . DIRECTORY_SEPARATOR . $fileName);
+                // $temporaryFilePath = $this->temporaryDirectory->path('db-dumps' . DIRECTORY_SEPARATOR . $fileName);
+                $temporaryFilePath = $this->temporaryDirectory->path($fileName);
 
                 $dbDumper->dumpToFile($temporaryFilePath);
 
